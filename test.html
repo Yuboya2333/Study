@@ -11,6 +11,67 @@
     </style>
 </head>
 <body>
+cd ~/Desktop 进入桌面
+mkdir demo-1 创建一个文件夹
+touch 1.txt  创建一个文件
+rm -rf 强制删除
+mv 重命名或者移动
+
+脚本语言
+mkdir demo（$1） 创建一个文件
+cd demo ($1) 进入文件夹
+mkdir css js 创建动态布局和效果文件夹
+touch index.html css/style.css js/main.js  创建网页，样式，效果实例
+exit  退出
+总结：初始化一个前端项目
+后缀.sh 可执行文件脚本
+
+sh demo 执行脚本demo 
+
+PATH的作用是什么？
+type ls 命令路径
+pwd 路径
+($1)替代任何文件名 传递的第一个参数
+demo xxx (xxx是新创建的文件)
+ 
+
+bash finst parameter 第一个参数传递
+
+
+echo “Hi” > index.html 把Hi字符串 写入网页中
+cd ~/Desktop 返回桌面
+ 
+clear 清空列表
+
+判断 demo xxx 命名是否存在
+if{-d $1};then 判断$1 命名是否重复
+ echo “$1 已经存在！” 提示警告
+ exit 退出  
+else 或者再次执行 
+ 脚本
+fi
+exit 1或者0提示语句1或者0
+
+
+
+
+Node.js Server
+1.网络与常用ip
+2.一个简单的Node.js Server
+3.HTML&CSS&JS&JSON的本质（4门语言）
+
+TCP传输控制协议（可靠，面向连接，相对于UDP较慢）
+TCP三次握手
+
+IP网络协议（内网和外网）
+端口（Port） 端口其实就是一个编号，并不是一种硬件
+HTTP 端口80
+HTTPS 端口443
+FTP 端口21
+2*16次方-1  65535 
+0-1023端口号需要管理员权限
+其他端口号普通用户使用
+
 HTML规范石油 W3C 组织制定的
 
 W3C 的创始人李爵士 Sir Timothy Joho Berners-lee
