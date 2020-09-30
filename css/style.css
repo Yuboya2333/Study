@@ -1,7 +1,6 @@
 
 body{
-    background: black;
-    color:white;
+    background: #efefef;
     margin: 0;
 }
 a{
@@ -73,4 +72,39 @@ a{
 }
 .banner{
     height: 515px;
+    background-position: center center;
+    background-size: cover;
+}
+.banner .mask{
+    height: 515px;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.useCard{
+    border: 1px solid red;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+.useCard .welcome{
+    background: #e6686a;
+    display: inline-block;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    /* width: 70px; *新手用法/
+    /* height: 29px; */
+    /* line-height: 29px; */
+    /* text-align: center; */
+}
+.useCard .welcome .triangle{
+    display: block;
+    border: 10px solid transparent;
+    width: 0px;
+    border-left-color: #e6686a;
+    /* border-left-color: black; */
+    border-top-width: 0px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
 }
